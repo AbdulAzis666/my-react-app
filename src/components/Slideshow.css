@@ -1,0 +1,47 @@
+  .caption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    padding: 12px 24px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }  
+
+  .slideshow {
+    position: relative;
+    max-width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .slideshow img {
+    width: 100%;
+    height: auto;
+    max-height: auto;
+    object-fit: cover;
+  }

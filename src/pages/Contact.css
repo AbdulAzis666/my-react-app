@@ -1,0 +1,54 @@
+.contact-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.contact-container h1 {
+  background-color: #ffffff; /* Warna latar belakang putih */
+  color: black;           /* Warna teks gelap untuk kontras yang lebih baik */
+  padding: 10px;            /* Tambahkan padding untuk estetika */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff; /* Warna latar belakang putih */
+  color: #333333;            /* Warna teks gelap untuk kontras yang lebih baik */
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #004494;
+}
+.contact-form label {
+  color: black; /* Mengubah warna teks label menjadi hitam */
+}
+p{
+  color: black;
+} 
+

@@ -1,0 +1,22 @@
+.footer {
+  background-color: #2c3e50; /* Warna gelap yang serasi dengan navbar */
+  color: #ecf0f1; /* Teks berwarna putih untuk kontras yang baik */
+  padding: 20px 50px;
+  text-align: center;
+  font-size: 16px;
+  border-top: 5px solid #3498db; /* Garis batas atas dengan warna biru cerah */
+}
+
+.footer-content p {
+  margin: 5px 0; /* Jarak antar paragraf */
+}
+
+.footer a {
+  color: #3498db; /* Warna link yang serasi dengan garis batas */
+  text-decoration: none; /* Menghilangkan garis bawah pada link */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Menambahkan garis bawah saat hover untuk aksesibilitas */
+}
+

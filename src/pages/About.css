@@ -1,0 +1,98 @@
+/* Styling umum untuk halaman About */
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  color: #34495e;
+}
+
+.about-heading {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-paragraph {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Styling untuk Tim Kepemimpinan */
+.leadership-team {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.leader {
+  text-align: center;
+  width: 30%;
+}
+
+.leader img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.leader h3 {
+  color: #34495e;
+  margin-top: 10px;
+}
+
+.leader p {
+  color: #7f8c8d;
+}
+
+/* Styling untuk Testimoni */
+.testimonials {
+  background-color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.testimonial {
+  text-align: center;
+  padding: 10px;
+}
+
+.testimonial h4 {
+  color: #3498db;
+  margin-top: 5px;
+}
+
+/* Styling untuk Galeri */
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 32%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Responsifitas */
+@media (max-width: 768px) {
+  .leadership-team {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leader {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .gallery img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+  

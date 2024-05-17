@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50; /* Warna latar yang lebih modern */
+    color: #ecf0f1;
+    padding: 15px 30px; /* Padding yang lebih besar untuk tampilan yang lebih luas */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Menambahkan bayangan untuk efek 3D */
+}
+
+.logo {
+    font-size: 1.8rem; /* Ukuran font yang lebih besar untuk logo */
+    width: 100px; /* Lebar gambar logo yang lebih besar */
+    height: auto; /* Tinggi gambar menyesuaikan proporsi */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Menyelaraskan item link secara vertikal */
+}
+
+.nav-links li {
+    margin-right: 25px; /* Jarak antar link yang lebih besar */
+    padding: 5px 10px; /* Padding untuk membuat tautan lebih mudah diklik */
+}
+
+.nav-links a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease; /* Transisi untuk warna latar saat hover */
+}
+
+.nav-links a:hover {
+    color: #3498db; /* Warna hover yang lebih cerah */
+    background-color: rgba(255,255,255,0.2); /* Menambahkan latar belakang saat hover */
+}
